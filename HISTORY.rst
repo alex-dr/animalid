@@ -1,10 +1,10 @@
 0.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Actually add animalid as a package.
 
 
 0.0.1 (2016-10-05)
 ------------------
 
-- Project pulled out of internal tooling into its own package
+- Project pulled out of internal tooling into its own package.
