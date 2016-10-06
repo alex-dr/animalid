@@ -1,7 +1,7 @@
 0.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Attempt to improve packaging
 
 
 0.0.2 (2016-10-06)
