@@ -1,4 +1,4 @@
-0.0.1 (unreleased)
--------------------
+0.0.1 (2016-10-05)
+------------------
 
 - Project pulled out of internal tooling into its own package
