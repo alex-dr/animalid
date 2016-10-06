@@ -28,7 +28,7 @@ release_requirements = [
     ]
 
 setup(name='animalid',
-      version='0.0.5',
+      version='0.0.6.dev0',
       description=('Library for generating unique IDs with animal names.'),
       url='https://github.com/datarobot/animalid',
       author='Alex Conway',
