@@ -43,7 +43,7 @@ setup(name='animalid',
       long_description=LONG_DESCRIPTION,
       packages=find_packages(exclude=['tests']),
       install_requires=[],
-      package_data={'animalid': ['*.txt']},
+      package_data={'animalid': ['lists/*.txt']},
       zip_safe=False,
       extras_require={
           'dev': release_requirements + test_requirements,

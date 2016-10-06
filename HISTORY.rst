@@ -1,7 +1,7 @@
 0.0.6 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add path to package_data.
 
 
 0.0.5 (2016-10-06)
