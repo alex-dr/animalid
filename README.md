@@ -16,7 +16,7 @@ Installation is easy!
 Simply run
 
 ```bash
-pip install animalid
+pip install animalid # this is a lie, we're not on PyPi yet!
 ```
 
 Or clone this repository and run
