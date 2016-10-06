@@ -16,14 +16,14 @@ test_requirements = [
 
 release_requirements = [
     # zest releaser fails with twine 1.7
-    'twine>=1.6,<1.7',
-    'zest.releaser>=6.6.2,<7']
+    'twine',
+    'zest.releaser']
 
 entry_points = {
     'console_scripts': []}
 
 setup(name='animalid',
-      version='0.0.1',
+      version='0.0.1.dev0',
       description=('Library and CLI tool for generating '
                    'unique IDs with animal names.'),
       author='Release Squad',
