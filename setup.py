@@ -27,7 +27,7 @@ release_requirements = [
     'zest.releaser']
 
 setup(name='animalid',
-      version='0.0.4.dev0',
+      version='0.0.4',
       description=('Library and CLI tool for generating '
                    'unique IDs with animal names.'),
       author='Alex Conway',
