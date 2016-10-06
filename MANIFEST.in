@@ -4,4 +4,4 @@ include setup.py
 
 recursive-include animalid *
 
-global-exclude *.pyc
+global-exclude *.pyc *.rst tests/* *.swo *.swp
