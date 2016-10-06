@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Pseudorandom ID generation with fun, unique animal ID's."""
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 LONG_DESCRIPTION = """
@@ -35,7 +35,7 @@ setup(name='animalid',
       url='https://github.com/datarobot/animalid',
       license='Freely Distributable',
       long_description=LONG_DESCRIPTION,
-      packages=['animalid'],
+      packages=find_packages(exclude=['tests']),
       zip_safe=False,
       extras_require={
           'dev': release_requirements + test_requirements,
