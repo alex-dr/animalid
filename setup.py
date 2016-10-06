@@ -30,7 +30,7 @@ setup(name='animalid',
       author_email='release@datarobot.com',
       entry_points=entry_points,
       url='https://github.com/datarobot/animalid',
-      packages=[],
+      packages=['animalid'],
       extras_require={
           'dev': release_requirements + test_requirements,
           'release': release_requirements,
