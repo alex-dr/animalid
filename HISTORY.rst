@@ -1,4 +1,4 @@
-0.0.3 (unreleased)
+0.0.3 (2016-10-06)
 ------------------
 
 - Attempt to improve packaging
