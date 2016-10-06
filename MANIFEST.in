@@ -2,6 +2,8 @@ include LICENSE.txt
 include README.md
 include setup.py
 
+global-exclude *.pyc *.rst *.swo *.swp
+
 recursive-include animalid *
 
-global-exclude *.pyc *.rst tests/* *.swo *.swp
+prune tests

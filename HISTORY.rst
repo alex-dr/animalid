@@ -1,7 +1,7 @@
 0.0.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Maybe finally include the text files.
 
 
 0.0.4 (2016-10-06)
