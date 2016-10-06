@@ -23,7 +23,7 @@ entry_points = {
     'console_scripts': []}
 
 setup(name='animalid',
-      version='0.0.2.dev0',
+      version='0.0.2',
       description=('Library and CLI tool for generating '
                    'unique IDs with animal names.'),
       author='Release Squad',

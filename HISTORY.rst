@@ -1,4 +1,4 @@
-0.0.2 (unreleased)
+0.0.2 (2016-10-06)
 ------------------
 
 - Actually add animalid as a package.
