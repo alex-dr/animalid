@@ -1,7 +1,8 @@
 0.0.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Use recommended packages with Zest Releaser.
+- Update License classifier
 
 
 0.0.7 (2016-10-12)
