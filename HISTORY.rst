@@ -1,4 +1,4 @@
-0.0.7 (unreleased)
+0.0.7 (2016-10-12)
 ------------------
 
 - Change to MIT License.
