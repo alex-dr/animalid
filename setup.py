@@ -24,7 +24,7 @@ test_requirements = [
 
 release_requirements = [
     'twine',
-    'zest.releaser'
+    'zest.releaser[recommended]'
 ]
 
 setup(name='animalid',
