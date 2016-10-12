@@ -37,7 +37,7 @@ setup(name='animalid',
       classifiers=[
           'Development Status :: 2 - Pre-Alpha',
           'Topic :: Utilities',
-          'License :: Freely Distributable',
+          'License :: MIT',
           'Programming Language :: Python :: 2.7'],
       keywords=['random', 'id', 'unique', 'identifier'],
       long_description=LONG_DESCRIPTION,
