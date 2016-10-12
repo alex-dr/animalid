@@ -1,7 +1,7 @@
 0.0.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Change to MIT License.
 
 
 0.0.6 (2016-10-06)
