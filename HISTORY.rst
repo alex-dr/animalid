@@ -1,4 +1,4 @@
-0.0.8 (unreleased)
+0.0.8 (2016-10-12)
 ------------------
 
 - Use recommended packages with Zest Releaser.
