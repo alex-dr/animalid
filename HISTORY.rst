@@ -1,7 +1,7 @@
 0.0.9 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add bits of entropy computation to probability module.
 
 
 0.0.8 (2016-10-12)

@@ -10,6 +10,14 @@ def compute_keyspace_size():
     return len(FIRST_ADJECTIVES) * len(SECOND_ADJECTIVES) * len(animals)
 
 
+def compute_bits_of_entropy():
+    """Compute how many bits of entropy generated phrases have."""
+    return \
+        math.log(len(FIRST_ADJECTIVES), 2) + \
+        math.log(len(SECOND_ADJECTIVES), 2) + \
+        math.log(len(animals), 2)
+
+
 def compute_probability(keyspace, trials):
     """Compute the probability of a collision.
 
