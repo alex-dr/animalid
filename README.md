@@ -26,6 +26,12 @@ Or clone this repository and run
 pip install .
 ```
 
+Or put this line in your `requirements.txt`:
+
+```
+-e git://github.com/alex-dr/animalid.git@origin/master#egg=animalid
+```
+
 ## Usage
 
 `animalid` is easy to use!
