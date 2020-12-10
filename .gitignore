@@ -3,3 +3,5 @@
 *egg-info
 *.pyc
 *.sw[l-p]
+dist
+build
