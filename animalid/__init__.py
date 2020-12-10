@@ -30,11 +30,11 @@ DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 
 def read_file_to_list(filename):
     """Given a file in this directory, return a set containing every line."""
-    with open(os.path.join(DIRECTORY, filename), 'r') as f:
+    with open(os.path.join(DIRECTORY, filename), "r") as f:
         return [word.strip() for word in f.readlines()]
 
 
-for word_file in glob.glob(os.path.join(DIRECTORY, 'lists/*.txt')):
+for word_file in glob.glob(os.path.join(DIRECTORY, "lists/*.txt")):
     word_list = read_file_to_list(word_file)
-    word_key = os.path.basename(word_file).rstrip('.txt')
+    word_key = os.path.basename(word_file).rstrip(".txt")
     setattr(MODULE, word_key, word_list)

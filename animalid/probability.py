@@ -12,10 +12,11 @@ def compute_keyspace_size():
 
 def compute_bits_of_entropy():
     """Compute how many bits of entropy generated phrases have."""
-    return \
-        math.log(len(FIRST_ADJECTIVES), 2) + \
-        math.log(len(SECOND_ADJECTIVES), 2) + \
-        math.log(len(animals), 2)
+    return (
+        math.log(len(FIRST_ADJECTIVES), 2)
+        + math.log(len(SECOND_ADJECTIVES), 2)
+        + math.log(len(animals), 2)
+    )
 
 
 def compute_probability(keyspace, trials):
@@ -71,16 +72,15 @@ def compute_collision_probabilities(trials):
     return compute_probability(keyspace, trials)
 
 
-def print_collision_probabilities(
-        trials_list=[100, 1000, 10000, 100000, 1000000]):
+def print_collision_probabilities(trials_list=[100, 1000, 10000, 100000, 1000000]):
     """Print collision probabilities for various numbers of trials
 
     :param trials_list: number trials to compute probabilities
     :rtype: None
 
     """
-    print('Trials\tProbability\tExpected')
+    print("Trials\tProbability\tExpected")
     for trials in trials_list:
         prob = compute_collision_probabilities(trials)
         expected = compute_expected_collisions(trials)
-        print('{}\t{:f}\t{:f}'.format(trials, prob, expected))
+        print("{}\t{:f}\t{:f}".format(trials, prob, expected))
