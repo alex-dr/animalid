@@ -17,7 +17,7 @@ Installation is easy!
 Simply run
 
 ```bash
-pip install animalid # this is a lie, we're not on PyPi yet!
+pip install -e git+git@github.com:alex-dr/animalid.git@origin/master#egg=animalid
 ```
 
 Or clone this repository and run
