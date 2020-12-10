@@ -26,16 +26,16 @@ release_requirements = ["twine", "zest.releaser[recommended]"]
 
 setup(
     name="animalid",
-    version="0.0.9.dev0",
+    version="0.0.10",
     description=("Library for generating unique IDs with animal names."),
-    url="https://github.com/datarobot/animalid",
+    url="https://github.com/alex-dr/animalid",
     author="Alex Conway",
     author_email="alex@datarobot.com",
-    license="Freely Distributable",
+    license="MIT",
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Topic :: Utilities",
-        "License :: MIT",
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
     ],
